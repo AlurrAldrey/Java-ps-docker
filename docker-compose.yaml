@@ -22,6 +22,8 @@ services:
       SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/testdb
       SPRING_DATASOURCE_USERNAME: your_mac_username
       SPRING_DATASOURCE_PASSWORD: your_password
+      SPRING_REDIS_HOST: localhost
+      SPRING_REDIS_PORT: 6379
     ports:
       - "8080:8080"
     depends_on:

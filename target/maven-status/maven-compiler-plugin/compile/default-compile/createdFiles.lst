@@ -1,5 +1,8 @@
-com/example/repository/ProductRepository.class
+com/example/service/RedisService.class
 com/example/App.class
 com/example/controller/ProductController.class
-com/example/model/Product.class
 com/example/Application.class
+com/example/repository/ProductRepository.class
+com/example/model/ProductRedis.class
+com/example/repository/ProductRedisRepository.class
+com/example/model/Product.class
