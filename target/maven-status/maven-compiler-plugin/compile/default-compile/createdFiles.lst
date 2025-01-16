@@ -1,7 +1,5 @@
-com/example/App.class
-com/example/ProductService.class
-com/example/controller/ProductController.class
-com/example/Application.class
 com/example/repository/ProductRepository.class
+com/example/App.class
+com/example/controller/ProductController.class
 com/example/model/Product.class
-com/example/DatabaseConnection.class
+com/example/Application.class
