@@ -1,5 +1,4 @@
 com/example/repository/ProductPostgreRepository.class
-com/example/App.class
 com/example/controller/ProductController.class
 com/example/Application.class
 com/example/model/ProductRedis.class

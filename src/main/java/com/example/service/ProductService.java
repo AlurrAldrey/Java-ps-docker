@@ -5,6 +5,8 @@ import com.example.repository.ProductPostgreRepository;
 import com.example.repository.ProductRedisRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import com.example.model.ProductPostgre;
+
 
 @Service
 public class ProductService {
@@ -15,18 +17,7 @@ public class ProductService {
     @Autowired
     private ProductPostgreRepository productPostgreRepository;
 
-    public void saveToRedis(String key, String name) {
-
-        //For testing:
-        productPostgreRepository.findAll();
-
-        ProductRedis product = new ProductRedis();
-        product.setId(key);
-        product.setName(name);
-        productRedisRepository.save(product);
-    }
-
-    public ProductRedis getFromRedis(String key) {
-        return productRedisRepository.findById(key).orElse(null);
+    public void saveProduct(ProductPostgre product) {
+        productPostgreRepository.save(product);
     }
 }

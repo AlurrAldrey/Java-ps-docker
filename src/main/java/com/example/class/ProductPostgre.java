@@ -14,7 +14,6 @@ public class ProductPostgre {
     private int id;
     private String name;
 
-    // Getters and Setters
     public int getId() {
         return id;
     }
