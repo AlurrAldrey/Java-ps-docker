@@ -1,8 +1,8 @@
 /Users/joaquinaldrey/Documents/repos/java-postgresql-test/java-postgresql-test/src/main/java/com/example/App.java
 /Users/joaquinaldrey/Documents/repos/java-postgresql-test/java-postgresql-test/src/main/java/com/example/Application.java
-/Users/joaquinaldrey/Documents/repos/java-postgresql-test/java-postgresql-test/src/main/java/com/example/class/Product.java
+/Users/joaquinaldrey/Documents/repos/java-postgresql-test/java-postgresql-test/src/main/java/com/example/class/ProductPostgre.java
 /Users/joaquinaldrey/Documents/repos/java-postgresql-test/java-postgresql-test/src/main/java/com/example/class/ProductRedis.java
 /Users/joaquinaldrey/Documents/repos/java-postgresql-test/java-postgresql-test/src/main/java/com/example/controller/ProductController.java
+/Users/joaquinaldrey/Documents/repos/java-postgresql-test/java-postgresql-test/src/main/java/com/example/repository/ProductPostgreRepository.java
 /Users/joaquinaldrey/Documents/repos/java-postgresql-test/java-postgresql-test/src/main/java/com/example/repository/ProductRedisRepository.java
-/Users/joaquinaldrey/Documents/repos/java-postgresql-test/java-postgresql-test/src/main/java/com/example/repository/ProductRepository.java
-/Users/joaquinaldrey/Documents/repos/java-postgresql-test/java-postgresql-test/src/main/java/com/example/service/RedisService.java
+/Users/joaquinaldrey/Documents/repos/java-postgresql-test/java-postgresql-test/src/main/java/com/example/service/ProductService.java

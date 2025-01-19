@@ -8,7 +8,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "t_product")
-public class Product {
+public class ProductPostgre {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
