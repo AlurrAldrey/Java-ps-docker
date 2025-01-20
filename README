@@ -10,3 +10,4 @@ docker run --name postgres-db -e POSTGRES_DB=testdb -e POSTGRES_USER=your_user -
 
 Springbootapp:
 mvn spring-boot:run
+mvn spring-boot:run -Dspring-boot.run.arguments="--spring.profiles.active=staging"

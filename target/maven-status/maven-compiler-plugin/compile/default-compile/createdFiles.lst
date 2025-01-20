@@ -1,7 +1,0 @@
-com/example/repository/ProductPostgreRepository.class
-com/example/controller/ProductController.class
-com/example/Application.class
-com/example/model/ProductRedis.class
-com/example/model/ProductPostgre.class
-com/example/service/ProductService.class
-com/example/repository/ProductRedisRepository.class
