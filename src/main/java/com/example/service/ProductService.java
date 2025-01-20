@@ -38,6 +38,11 @@ public class ProductService {
         ProductPostgre productPostgre = productPostgreRepository.findById(id).orElse(null);
         
         if (productPostgre != null) {
+            ProductRedis productToCache = new ProductRedis();
+            productToCache.setId(productPostgre.getId());
+            productToCache.setName(productPostgre.getName());
+            productRedisRepository.save(productToCache);
+            
             return ProductDTO.fromPostgre(productPostgre); 
         }
 
